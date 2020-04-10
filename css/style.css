@@ -8,7 +8,7 @@ body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    /* width: 1368px; */
+
 }
 
 .container {
@@ -20,10 +20,6 @@ header {
     padding-top: 50px;
     font-family: 'Raleway', sans-serif;
 }
-
-/* Heading, call-to-action, header navigatio */
-/* font-family: 'Raleway', sans-serif; */
-
 
 /* Cores */
 :root {
@@ -44,11 +40,6 @@ header {
 
 .nav-links ul { 
     color: var(--very-darl-blue);
-    /* display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none; */
     float: right;
 }
 
@@ -69,4 +60,71 @@ a:hover {
 #logo {
     float: left;
     vertical-align: top;
+}
+
+/* Main */
+main {
+    padding-top: 100px;
+}
+
+.files {
+    float: left;
+    width: 50%;
+}
+
+.img-files {
+    width: 50%;
+    float: right;
+}
+
+#img-file {
+    width: 100%;
+}
+
+.files h1, p, input {
+    text-align: left;
+    line-height: 1.5em;
+    padding-right: 15px;
+}
+
+.files h1 {
+    font-family: 'Raleway', sans-serif;
+    color: var(--very-dark-blue);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 36px;
+   
+}
+
+.files p {
+    color: var(--very-dark-blue);
+}
+
+#email {
+    border: var(--desaturated-blue) 1px solid;
+    padding: 10px 30px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 0;
+    border-radius: 2px;
+    color:var(--light-grayish-blue);
+}
+
+#btn {
+    width: 180px;
+    padding: 10px 30px;
+    margin-left: 10px;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 2px;
+    color:var(--light-grayish-blue);
+    background-color: var(--bright-blue);
+    border: var(--bright-blue) 1px solid;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color:var(--bright-blue);
+    background-color: var(--light-grayish-blue);
+    border: var(--bright-blue) 1px solid;
 }
