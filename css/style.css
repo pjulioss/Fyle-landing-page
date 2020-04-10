@@ -8,7 +8,7 @@ body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    width: 1368px;
+    /* width: 1368px; */
 }
 
 .container {
@@ -20,6 +20,7 @@ header {
     padding-top: 50px;
     font-family: 'Raleway', sans-serif;
 }
+
 /* Heading, call-to-action, header navigatio */
 /* font-family: 'Raleway', sans-serif; */
 
