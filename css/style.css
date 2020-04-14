@@ -107,7 +107,11 @@ main {
     margin-top: 20px;
     margin-left: 0;
     border-radius: 2px;
-    color:var(--light-grayish-blue);
+    color:var(--very-dark-blue);
+}
+
+::placeholder {
+    color:var(--light-gray);
 }
 
 #btn {
